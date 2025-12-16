@@ -1,46 +1,51 @@
-# portfolio
-Professional Portfolio & SEO Laboratory. Built with Next.js and Vercel to demonstrate high-performance web architecture, International SEO strategies, and technical implementation of Core Web Vitals. Showcasing the intersection of International Business and Software Development.
+# Kristen Liivrand | Technical SEO Laboratory & Portfolio
 
-## Features
+A high-performance web architecture engineered to demonstrate the intersection of **International Business Strategy**, **Technical SEO**, and **Modern Software Engineering**. This project serves as a live demonstration of Core Web Vitals optimization and AI-driven marketing automation.
 
-### 🎯 Core Capabilities
-- **High-Performance Hero Section** - Optimized for Core Web Vitals with smooth animations
-- **Case Study Templates** - Detailed project showcases for Nooon (Hospitality SaaS) and DMSP (Global SEO)
-- **AI Lab** - Showcasing SEO automation and LLM workflow implementations
-- **Technical Projects** - Go and JavaScript projects from kood/sisu
+---
 
-### 🚀 Technical SEO
-- **Automated Schema Markup** - JSON-LD structured data for enhanced search presence
-- **Dynamic Sitemap** - Automatically generated XML sitemap
-- **Meta Tags & OpenGraph** - Comprehensive social media optimization
-- **robots.txt** - Proper search engine crawling configuration
-- **100% Lighthouse Scores** - Optimized for Performance, SEO, and Accessibility
+## 🏛️ Project Vision
+This portfolio is built to reflect the standards required for global luxury hospitality brands like **MGM**. It focuses on three core pillars:
+* **Performance & Accessibility:** Maintaining 100/100 Lighthouse scores to ensure optimal crawl budget and user experience.
+* **Global Scalability:** Leveraging my International Business background to build architectures ready for multi-region and multi-language deployment.
+* **AI Automation:** Utilizing LLM workflows to streamline technical audits and content strategy.
 
-### 🎨 Premium Dark-Mode UI
-- Luxury brand color palette with gold, silver, and platinum accents
-- Smooth animations and transitions
-- Fully responsive design
-- Professional typography with system fonts
+## 🧪 Performance Validation
+The architecture is strictly audited to maintain a "Perfect Score" baseline.
 
-## Tech Stack
+| Category | Score | Metric Detail |
+| :--- | :--- | :--- |
+| **Performance** | ⚡ 100 | Sub-second LCP and zero Cumulative Layout Shift. |
+| **SEO** | 🎯 100 | Validated JSON-LD Schema & optimized Metadata. |
+| **Best Practices** | ✅ 100 | Secure HTTPS, modern image formats, and CSP. |
+| **Accessibility** | ♿ 96+ | Fully responsive and screen-reader friendly. |
 
-- **Framework:** Next.js 14 (App Router)
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS v3
-- **Deployment:** Vercel-ready
-- **SEO:** Built-in sitemap, robots.txt, and schema markup
+---
 
-## Getting Started
+## 🛠️ The Tech Stack
+* **Framework:** Next.js 14 (App Router) for superior Server-Side Rendering (SSR).
+* **Language:** TypeScript for enterprise-grade type safety.
+* **Styling:** Tailwind CSS v3 for a minimal CSS footprint.
+* **Deployment:** Vercel Edge Network for sub-second global latency.
 
-### Prerequisites
-- Node.js 18+ 
-- npm or yarn
+## 📂 Key Showcases
 
-### Installation
+### 🤖 AI Lab
+Demonstrating the use of OpenAI API and Go microservices to automate "dishwasher tasks" in SEO:
+* **Intent Classification:** Scaling luxury brand voices across international markets.
+* **Keyword Intelligence:** Moving beyond volume into intent-based clustering.
+* **Programmatic SEO:** Dynamic sitemap and robots.txt generation.
 
+### 🏗️ Technical Engineering (kood/sisu)
+Showcasing backend logic developed during software engineering training at kood/sisu:
+* **Pathfinder:** High-performance graph navigation in Go.
+* **SimpleBank:** Concurrent financial logic and data integrity systems.
+* **WeatherStation:** Real-time data processing and API integration.
+
+## 🚀 Getting Started
 ```bash
 # Clone the repository
-git clone https://github.com/KoodLiiv/portfolio.git
+git clone [https://github.com/KoodLiiv/portfolio.git](https://github.com/KoodLiiv/portfolio.git)
 cd portfolio
 
 # Install dependencies
@@ -48,94 +53,4 @@ npm install
 
 # Run development server
 npm run dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) to view the portfolio.
-
-### Build for Production
-
-```bash
-# Create optimized production build
-npm run build
-
-# Start production server
-npm start
-```
-
-## Project Structure
-
-```
-portfolio/
-├── app/                      # Next.js app directory
-│   ├── case-studies/        # Case study pages
-│   │   ├── nooon/          # Nooon case study
-│   │   └── dmsp/           # DMSP case study
-│   ├── globals.css         # Global styles
-│   ├── layout.tsx          # Root layout
-│   ├── page.tsx            # Home page
-│   ├── robots.ts           # Robots.txt configuration
-│   └── sitemap.ts          # Dynamic sitemap
-├── components/              # React components
-│   ├── Header.tsx          # Navigation header
-│   ├── Footer.tsx          # Footer
-│   ├── Hero.tsx            # Hero section
-│   ├── CaseStudies.tsx     # Case studies showcase
-│   ├── AILab.tsx           # AI Lab section
-│   └── TechnicalProjects.tsx # Projects showcase
-├── public/                  # Static assets
-├── tailwind.config.ts      # Tailwind configuration
-├── tsconfig.json           # TypeScript configuration
-└── next.config.js          # Next.js configuration
-```
-
-## SEO Features
-
-### Schema Markup
-All pages include structured data using JSON-LD format:
-- Person schema on homepage
-- Article schema on case studies
-- Organization schema in footer
-
-### Sitemap
-Dynamic sitemap includes:
-- Homepage
-- Case study pages
-- AI Lab section
-- Projects section
-
-### Meta Tags
-Comprehensive meta tags for:
-- SEO optimization
-- Social media (OpenGraph, Twitter Cards)
-- Mobile optimization
-- Accessibility
-
-## Performance
-
-The portfolio is optimized for:
-- ⚡ **100/100** Lighthouse Performance Score
-- 🎯 **100/100** SEO Score
-- ♿ **100/100** Accessibility Score
-- ✅ **100%** Core Web Vitals passing
-
-## Case Studies
-
-### Nooon - Hospitality SaaS
-Comprehensive SEO strategy for luxury hospitality platform
-- 250% organic traffic growth
-- 15+ international markets
-- 100% Core Web Vitals
-
-### DMSP - Global SEO Strategy
-Enterprise-level international SEO implementation
-- Top 3 global rankings
-- 25+ countries
-- 12 languages
-
-## License
-
-This project is open source and available under the [ISC License](LICENSE).
-
-## Contact
-
-For inquiries or collaboration opportunities, please reach out through the portfolio website.
