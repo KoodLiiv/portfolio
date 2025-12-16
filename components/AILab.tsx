@@ -1,3 +1,7 @@
+'use client'
+
+import { useState } from 'react'
+
 interface AIProject {
   title: string
   description: string
@@ -33,6 +37,8 @@ const aiProjects: AIProject[] = [
 ]
 
 export default function AILab() {
+  const [showTech, setShowTech] = useState(false)
+
   return (
     <section id="ai-lab" className="py-20 bg-black">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -87,13 +93,39 @@ export default function AILab() {
 
         {/* CTA */}
         <div className="text-center mt-12">
-          <a
-            href="#contact"
-            className="inline-block px-8 py-3 bg-gradient-to-r from-purple-600 to-luxury-gold text-white font-semibold rounded-lg hover:shadow-lg hover:shadow-luxury-gold/50 transition-all duration-300"
+          <button 
+            onClick={() => setShowTech(!showTech)}
+            className="bg-gradient-to-r from-purple-600 to-luxury-gold text-white font-bold py-3 px-8 rounded-full hover:scale-105 transition-all shadow-lg shadow-purple-500/20"
           >
-            Explore AI Solutions
-          </a>
+            {showTech ? 'Hide Architecture' : 'View AI System Architecture'}
+          </button>
         </div>
+
+        {/* Tech Stack Details */}
+        {showTech && (
+          <div className="mt-8 p-6 bg-gray-900/50 border border-luxury-gold/30 rounded-xl animate-fade-in max-w-4xl mx-auto">
+            <h3 className="text-luxury-gold font-bold text-2xl mb-4">MGM-Scale SEO Automation Stack</h3>
+            <p className="text-gray-300 text-sm leading-relaxed mb-4">
+              This laboratory utilizes <strong>Next.js Server Actions</strong> and <strong>Go microservices</strong> to process 
+              large-scale SEO data. By integrating <strong>LLMs for semantic analysis</strong>, we can automate 
+              content gap identification and multilingual keyword mapping across international markets.
+            </p>
+            <div className="grid md:grid-cols-3 gap-4 mt-6">
+              <div className="bg-black/50 border border-gray-800 rounded-lg p-4">
+                <h4 className="text-luxury-platinum font-semibold mb-2">Frontend</h4>
+                <p className="text-gray-400 text-xs">Next.js 14, React Server Components, TypeScript</p>
+              </div>
+              <div className="bg-black/50 border border-gray-800 rounded-lg p-4">
+                <h4 className="text-luxury-platinum font-semibold mb-2">Backend</h4>
+                <p className="text-gray-400 text-xs">Go microservices, REST APIs, Server Actions</p>
+              </div>
+              <div className="bg-black/50 border border-gray-800 rounded-lg p-4">
+                <h4 className="text-luxury-platinum font-semibold mb-2">AI/ML</h4>
+                <p className="text-gray-400 text-xs">OpenAI GPT-4, Claude, Custom ML Models</p>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
     </section>
   )
