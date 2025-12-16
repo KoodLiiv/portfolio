@@ -104,7 +104,7 @@ export default function AILab() {
         {/* Tech Stack Details */}
         {showTech && (
           <div className="mt-8 p-6 bg-gray-900/50 border border-luxury-gold/30 rounded-xl animate-fade-in max-w-4xl mx-auto">
-            <h3 className="text-luxury-gold font-bold text-2xl mb-4">MGM-Scale SEO Automation Stack</h3>
+            <h3 className="text-luxury-gold font-bold text-2xl mb-4">SEO Automation Stack</h3>
             <p className="text-gray-300 text-sm leading-relaxed mb-4">
               This laboratory utilizes <strong>Next.js Server Actions</strong> and <strong>Go microservices</strong> to process 
               large-scale SEO data. By integrating <strong>LLMs for semantic analysis</strong>, we can automate 

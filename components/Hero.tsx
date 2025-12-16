@@ -61,7 +61,7 @@ export default function Hero() {
               { label: 'Lighthouse Score', value: '100' },
               { label: 'Core Web Vitals', value: 'Optimized' },
               { label: 'SEO Score', value: '100' },
-              { label: 'Accessibility', value: '100' },
+              { label: 'Accessibility', value: '96' },
             ].map((metric) => (
               <div key={metric.label} className="p-4 bg-black/40 rounded-lg border border-gray-800 backdrop-blur-sm">
                 <div className="text-2xl font-bold text-luxury-gold mb-1">{metric.value}</div>
