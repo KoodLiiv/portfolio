@@ -68,15 +68,15 @@ export default function DMSPCaseStudy() {
           {/* Key Metrics */}
           <div className="grid md:grid-cols-3 gap-6 mb-12 p-8 bg-gradient-to-br from-gray-900 to-black border border-gray-800 rounded-xl">
             <div className="text-center">
-              <div className="text-4xl font-bold text-luxury-gold mb-2">Top 3</div>
+              <div className="text-4xl font-bold text-luxury-gold mb-2">Top 10</div>
               <div className="text-gray-400">Global Rankings</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-luxury-gold mb-2">25+</div>
+              <div className="text-4xl font-bold text-luxury-gold mb-2">5+</div>
               <div className="text-gray-400">Countries</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-luxury-gold mb-2">12</div>
+              <div className="text-4xl font-bold text-luxury-gold mb-2">3</div>
               <div className="text-gray-400">Languages</div>
             </div>
           </div>
@@ -90,7 +90,7 @@ export default function DMSPCaseStudy() {
               <div className="text-gray-300 leading-relaxed space-y-4">
                 <p>
                   DMSP required a comprehensive global SEO strategy to establish presence 
-                  across 25+ countries and 12 languages. The project demanded enterprise-level 
+                  across 5+ countries and 3 languages. The project demanded enterprise-level 
                   technical architecture capable of handling complex international requirements 
                   while maintaining exceptional performance and user experience.
                 </p>
@@ -131,7 +131,7 @@ export default function DMSPCaseStudy() {
                       Content & Strategy
                     </h3>
                     <ul className="text-sm space-y-2 text-gray-400">
-                      <li>• 12-language content framework</li>
+                      <li>• 3-language content framework</li>
                       <li>• Cultural adaptation strategy</li>
                       <li>• Regional keyword research</li>
                       <li>• Local link building campaigns</li>
@@ -152,7 +152,7 @@ export default function DMSPCaseStudy() {
                     Hreflang Architecture
                   </h3>
                   <p className="text-gray-400 text-sm">
-                    Implemented a robust hreflang system managing 25+ regional variants with 
+                    Implemented a robust hreflang system managing 5+ regional variants with 
                     automated validation and monitoring to ensure correct language-region targeting.
                   </p>
                 </div>
@@ -189,11 +189,11 @@ export default function DMSPCaseStudy() {
                 <ul className="space-y-3">
                   <li className="flex items-start">
                     <span className="text-luxury-gold mr-3">✓</span>
-                    <span><strong>Top 3 rankings</strong> for primary keywords in 25+ countries</span>
+                    <span><strong>Top 10 rankings</strong> for primary keywords in 5+ countries</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-luxury-gold mr-3">✓</span>
-                    <span><strong>12 languages</strong> fully optimized and performing</span>
+                    <span><strong>3 languages</strong> fully optimized and performing</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-luxury-gold mr-3">✓</span>
